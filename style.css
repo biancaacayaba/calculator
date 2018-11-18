@@ -1,0 +1,62 @@
+
+.container{
+    position: relative;
+    margin: 10px auto; /*o valor para cima e automatico para o resto*/ 
+    width: 90%;
+    height: auto;
+    padding: 10px;
+}
+.Resultado{
+    position: relative;
+    width: 97%;
+    height: auto;
+    padding: 6px;
+
+}
+
+.digita{
+    margin-top: 5px;
+    width: 96%;
+    height: auto;
+    padding: 10px;
+    
+
+}
+.corpo{
+    width: 100%;
+    height: 90px;
+    border: none;
+    background-color: white;    color: black;
+    font-size: 230%;
+    text-align: right;
+        background-color:#e6e6e6;
+}   
+
+.btn{
+    margin-top: 5px;
+    width: 18%;
+    height: 10%;
+    color: black;
+    font-size: 150%;
+    
+}
+.btn
+{
+        opacity:0.5;
+}
+.btn:hover
+{
+        opacity:1;
+}
+
+.igual{
+    width: 14.8%;
+    height: 27.3%;
+    position:absolute;
+    background-color: red;
+}
+.zero{
+    width: 37.65%;
+    height: 15.8%;
+}
+
