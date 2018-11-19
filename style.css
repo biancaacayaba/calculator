@@ -6,14 +6,23 @@
     height: auto;
     padding: 10px;
 }
-.Resultado{
+.telaresult{
     position: relative;
     width: 97%;
     height: auto;
     padding: 6px;
 
 }
-
+.igual{
+    width: 14.8%;
+    height: 28.3%;
+    position:absolute;
+    background-color: red;
+}
+.zero{
+    width: 37.65%;
+    height: 15.8%;
+}
 .digita{
     margin-top: 5px;
     width: 96%;
@@ -49,14 +58,5 @@
         opacity:1;
 }
 
-.igual{
-    width: 14.8%;
-    height: 27.3%;
-    position:absolute;
-    background-color: red;
-}
-.zero{
-    width: 37.65%;
-    height: 15.8%;
-}
+
 

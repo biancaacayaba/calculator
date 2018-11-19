@@ -7,8 +7,8 @@
  * Author URI: http://biancaacayaba.com.br
  */
 // principal função usada no plugin
-function fexemplo($atts){
+function calcular($atts){
    return '<iframe src="'.plugins_url().'/exemplo/index.php" frameborder="0"> </iframe>';
 }
-add_shortcode('calculadora', 'fexemplo');
+add_shortcode('calculadora', 'calcular');
 ?>

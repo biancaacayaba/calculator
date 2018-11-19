@@ -13,7 +13,7 @@
 <body>
 
 <div class="container">
-    <header class="Resultado">
+    <header class="telaresult">
         <form action="" method="post">
             <input type="text" id="resultado" class="corpo" readonly>
         </form>
