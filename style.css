@@ -48,6 +48,12 @@
 {
         opacity:1;
 }
+.igual{
+    width: 14.8%;
+    height: 27.5%;
+    position:absolute;
+    background-color: red;
+}
 
 .zero{
     width: 37.65%;
@@ -55,9 +61,3 @@
     
 }
 
-.igual{
-    width: 14.8%;
-    height: 27.5%;
-    position:absolute;
-    background-color: red;
-}
