@@ -8,7 +8,7 @@
  */
 // principal função usada no plugin
 function calcular($atts){
-   return '<iframe src="'.plugins_url().'/exemplo/index.php" frameborder="0"> </iframe>';
+   return '<iframe src="'.plugins_url().'/calculator/index.php" frameborder="0" width="350px" height="450px"> </iframe>';
 }
 add_shortcode('calculadora', 'calcular');
 ?>

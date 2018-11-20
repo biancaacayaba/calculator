@@ -1,6 +1,6 @@
 $(function(){
     
-    var valor1, valor2, op;
+    var v1, v2, op;
     
     $("input[name=btn]").click(function(){
         $("#resultado").val($("#resultado").val() + $(this).val());
@@ -63,19 +63,19 @@ $(function(){
             $("#resultado").val("");
             
             if(op == "soma"){
-                $("#resultado").val(valor1+valor2);
+                $("#resultado").val(v1+v2);
             }
             
             if(op == "subtracao"){
-                $("#resultado").val(valor1-valor2);
+                $("#resultado").val(v1-v2);
             }
             
             if(op == "multiplicacao"){
-                $("#resultado").val(valor1*valor2);
+                $("#resultado").val(v1*v2);
             }
             
             if(op == "divisao"){
-                $("#resultado").val(valor1/valor2);
+                $("#resultado").val(v1/v2);
             }
             
             

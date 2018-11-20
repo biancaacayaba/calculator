@@ -8,29 +8,13 @@
 }
 .telaresult{
     position: relative;
-    width: 97%;
+    width: 95%;
     height: auto;
     padding: 6px;
 
 }
-.igual{
-    width: 14.8%;
-    height: 28.3%;
-    position:absolute;
-    background-color: red;
-}
-.zero{
-    width: 37.65%;
-    height: 15.8%;
-}
-.digita{
-    margin-top: 5px;
-    width: 96%;
-    height: auto;
-    padding: 10px;
-    
 
-}
+
 .corpo{
     width: 100%;
     height: 90px;
@@ -49,6 +33,13 @@
     font-size: 150%;
     
 }
+.digita{
+    margin-top: 5px;
+    width: 96%;
+    height: auto;
+    padding: 10px;
+    
+}
 .btn
 {
         opacity:0.5;
@@ -58,5 +49,15 @@
         opacity:1;
 }
 
+.zero{
+    width: 37.65%;
+    height: 15.8%;
+    
+}
 
-
+.igual{
+    width: 14.8%;
+    height: 27.5%;
+    position:absolute;
+    background-color: red;
+}
