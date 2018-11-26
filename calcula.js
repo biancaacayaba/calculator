@@ -62,10 +62,9 @@ $("#resultado").val(v1*v2);
 }
 if(op == "divisao"){
  $("#resultado").val(v1/v2);
- }
- }else{
-            alert("Tem que digitar outro valor para calcular");
-        }
-    })
-    
+}
+}else{
+alert("Tem que digitar outro valor para calcular");
+}
+})
 });
